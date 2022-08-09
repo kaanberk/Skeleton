@@ -33,7 +33,7 @@ public partial class _1_DataEntry : System.Web.UI.Page
         Response.Redirect("StaffViewer.aspx");
 
     }
-       //creatr a new instance of clsStaff
+       //creatr a new instance of clsStaff 
        clsStaff AnStaff = new clsStaff();
        //capture the Staff Id
        AnStaff.StaffId = lblStaffId.Text;
