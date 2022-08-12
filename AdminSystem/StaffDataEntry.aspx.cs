@@ -24,7 +24,7 @@ public partial class _1_DataEntry : System.Web.UI.Page
         //create a new instance of clsStaff
         clsStaff AnStaff = new clsStaff();
         //capture the house no
-        AnStaff.StaffPhoneNo = txtStaffPhoneNo.Text;
+        String StaffPhoneNo = txtStaffPhoneNo.Text;
         //store the address in the session object
         Session["AnStaff"] = AnStaff;
         //navigate to the viewer page
@@ -37,7 +37,7 @@ public partial class _1_DataEntry : System.Web.UI.Page
         //create a new instance of clsStaff
         clsStaff AnStaff = new clsStaff();
         //capture the house no
-        AnStaff.StaffPhoneNo = lblStaffPhoneNo.Text;
+        String StaffPhoneNo = txtStaffPhoneNo.Text;
         //store the address in the session object
         Session["AnStaff"] = AnStaff;
         //navigate to the viewer page
